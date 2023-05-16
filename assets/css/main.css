@@ -1,8 +1,17 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+/* Hide scrollbar for Chrome, Safari and Opera */
 .scrollClass::-webkit-scrollbar {
-    display: none;
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollClass {
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
 }
 
 html,
